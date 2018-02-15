@@ -20,7 +20,6 @@ ITK is an open-source, cross-platform library that provides developers with an e
 
 How to Build
 ============
-1. Checkout this repository as ``ITKVtkGlue`` (note the case).
-2. Create a folder named ``ITKVtkGlue-build`` (note the case) next to the repository folder.
-3. `Download <https://www.vtk.org/download/>`_ and `build VTK <https://www.vtk.org/Wiki/VTK/Building>`_ in ``ITKVtkGlue-build/VTK-build``.
-4. `Download <https://github.com/InsightSoftwareConsortium/ITKPythonPackage/tree/master/scripts>`_ the adequate ``*-download-cache-and-build-wheels`` script and run it from the repository folder.
+1. `Download <https://www.vtk.org/download/>`_ and `build VTK <https://www.vtk.org/Wiki/VTK/Building>`_.
+2. Create an environment variable ``VTK_DIR`` pointing to the VTK build location.
+3. `Download <https://github.com/InsightSoftwareConsortium/ITKPythonPackage/tree/master/scripts>`_ the adequate ``*-download-cache-and-build-module-wheels`` script and run it from the repository folder.
